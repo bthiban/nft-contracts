@@ -5,3 +5,4 @@
     - BNB
     - ETH
     - MATIC
+    - AVAX

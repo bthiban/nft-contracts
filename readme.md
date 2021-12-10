@@ -6,3 +6,5 @@
     - ETH
     - MATIC
     - AVAX
+
+## It will support for [most of the chains here](https://chainlist.org/)

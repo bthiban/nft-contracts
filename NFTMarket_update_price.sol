@@ -52,6 +52,10 @@ contract NFTMarket is ReentrancyGuard {
         nonReentrant
     {
         require(price >= 0, "Price must be at least 1 wei");
+        require(
+            idToMarketItem[itemId].seller == msg.sender,
+            "Sorry you are not the owner of this item"
+        );
         idToMarketItem[itemId].price = price;
     }
 
